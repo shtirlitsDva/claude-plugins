@@ -1,0 +1,43 @@
+{
+  "name": "shtirlitsDva-plugins",
+  "owner": {
+    "name": "shtirlitsDva"
+  },
+  "metadata": {
+    "description": "Personal Claude Code plugin marketplace aggregating shtirlitsDva's plugins from across multiple repositories."
+  },
+  "plugins": [
+    {
+      "name": "revdiff",
+      "source": {
+        "source": "github",
+        "repo": "shtirlitsDva/revdiff"
+      },
+      "description": "Review diffs, files, and documents with inline annotations in a TUI overlay",
+      "version": "0.5.0",
+      "author": {
+        "name": "umputun"
+      },
+      "homepage": "https://revdiff.com",
+      "repository": "https://github.com/shtirlitsDva/revdiff",
+      "license": "MIT",
+      "keywords": ["code-review", "diff", "annotations", "tui"]
+    },
+    {
+      "name": "revdiff-planning",
+      "source": {
+        "source": "git-subdir",
+        "url": "shtirlitsDva/revdiff",
+        "path": "plugins/revdiff-planning"
+      },
+      "description": "Automatic plan review with revdiff",
+      "version": "0.2.1",
+      "author": {
+        "name": "umputun"
+      },
+      "repository": "https://github.com/shtirlitsDva/revdiff",
+      "license": "MIT",
+      "keywords": ["code-review", "planning", "tui"]
+    }
+  ]
+}
